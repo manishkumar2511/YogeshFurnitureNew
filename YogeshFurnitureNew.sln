@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "YogeshFurnitureNew", "YogeshFurnitureNew.esproj", "{AC112D3C-7395-477C-9B2E-8245AE590B31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC112D3C-7395-477C-9B2E-8245AE590B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC112D3C-7395-477C-9B2E-8245AE590B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC112D3C-7395-477C-9B2E-8245AE590B31}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AC112D3C-7395-477C-9B2E-8245AE590B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC112D3C-7395-477C-9B2E-8245AE590B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC112D3C-7395-477C-9B2E-8245AE590B31}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F5ED2C1-6F9A-4261-B977-7189E50D828E}
+	EndGlobalSection
+EndGlobal
