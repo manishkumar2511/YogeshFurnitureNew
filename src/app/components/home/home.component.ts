@@ -25,9 +25,15 @@ export class HomeComponent {
   // Product data array for displaying in the Our Products section
   products: { image: string; name: string; description: string }[] = [
     { image: '../../../assets/our-products/our-products-logo/sofa.jpg', name: 'Elegant Sofa', description: 'Comfortable and stylish sofa for your living room.' },
-    { image: '../../../assets/our-products/our-products-logo/sofa.jpg', name: 'Classic Chair', description: 'A timeless chair design that suits any decor.' },
-    { image: '../../../assets/our-products/our-products-logo/sofa.jpg', name: 'Modern Table', description: 'A sleek table that adds elegance to your space.' },
-    { image: '../../../assets/our-products/our-products-logo/sofa.jpg', name: 'Cozy Bed', description: 'A bed that offers comfort and style for peaceful sleep.' },
-  //  { image: '../../../assets/our-products/our-products-logo/sofa.jpg', name: 'Storage Cabinet', description: 'Spacious and sturdy cabinet for all your storage needs.' }
+    { image: '../../../assets/our-products/our-products-logo/chairlogo1.png', name: 'Classic Chair', description: 'A timeless chair design that suits any decor.' },
+    { image: '../../../assets/our-products/our-products-logo/modernTable.jpg', name: 'Modern Table', description: 'A sleek table that adds elegance to your space.' },
+    { image: '../../../assets/our-products/our-products-logo/cozybed.webp', name: 'Cozy Bed', description: 'A bed that offers comfort and style for peaceful sleep.' },
+  ];
+  // Sofa data array for the Elegant Sofa section
+  sofas: { image: string; name: string; description: string }[] = [
+    { image: '../../../assets/our-products/sofa-section/sofasectionimg1.jpg', name: 'Luxury Sofa', description: 'A luxurious sofa to enhance your living room.' },
+    { image: '../../../assets/our-products/sofa-section/sofasectionimg2.jpg', name: 'Classic Sofa', description: 'A classic sofa design for timeless elegance.' },
+    { image: '../../../assets/our-products/sofa-section/sofasectionimg3.jpg', name: 'Contemporary Sofa', description: 'A contemporary sofa that brings style to your home.' },
+    { image: '../../../assets/our-products/sofa-section/sofasectionimg4.jpg', name: 'Comfort Sofa', description: 'Designed for maximum comfort and style.' },
   ];
 }

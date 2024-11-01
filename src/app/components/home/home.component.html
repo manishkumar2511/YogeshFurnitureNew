@@ -53,10 +53,13 @@
   <!-- Our Products Section -->
   <div class="row mt-5">
     <div class="col text-center">
-      <h2 class="text-primary">Our Products</h2>
-      <p class="text-muted">Explore our range of furniture designed to bring style and comfort to your home.</p>
+      <h3 style="color: #2C3E50;">Our Products</h3>
+      <p style="color: #6D6E71; font-size: 1rem; max-width: 600px; margin: 0 auto;">
+        Discover our carefully curated range of furniture, designed to blend style with comfort and elevate your home.
+      </p>
     </div>
   </div>
+
 
   <!-- Product Cards Section -->
   <div class="row mt-4 " id="our-products">
@@ -66,6 +69,35 @@
           <img src="{{ product.image }}" alt="{{ product.name }}" class="product-image mb-3">
           <h5 class="card-title">{{ product.name }}</h5>
           <p class="card-text">{{ product.description }}</p>
+          <button type="button" class="btn mt-0" style="border-radius: 50px; background-color: #800000; color: white;">
+            Explore
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Elegant Sofa Section -->
+  <div class="row mt-5">
+    <div class="col text-center">
+      <h3 style="color: #2C3E50;">Elegant Sofa</h3>
+      <p style="color: #6D6E71; font-size: 1rem; max-width: 600px; margin: 0 auto;">
+        Browse our exquisite collection of elegant sofas that bring luxury and comfort to your living space.
+      </p>
+    </div>
+  </div>
+
+  <!-- Sofa Cards Section -->
+  <div class="row mt-4" id="elegant-sofa">
+    <div class="col-6 col-md-4 col-lg-3 mb-4" *ngFor="let sofa of sofas">
+      <div class="card text-center shadow-sm">
+        <div class="card-body p-2">
+          <img src="{{ sofa.image }}" alt="{{ sofa.name }}" class="img-fluid mb-3" style="width: 100%; height: 100%; object-fit: cover; aspect-ratio: 1/1; border-radius: 8px;">
+          <h5 class="card-title">{{ sofa.name }}</h5>
+          <p class="card-text">{{ sofa.description }}</p>
+          <button type="button" class="btn mt-0" style="border-radius: 50px; background-color: #800000; color: white;">
+            View Details
+          </button>
         </div>
       </div>
     </div>
